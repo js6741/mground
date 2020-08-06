@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Table(name="Ground_table")
 public class Ground {
-
+ 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
